@@ -9,6 +9,10 @@ def hello():
 def index():
   return "kjhgvjhfghjdghfjhfhjg"
 
+@app.route('/user/<username>')
+def profile(username): pass
+  return "Hello <username>"
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
 
