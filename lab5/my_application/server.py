@@ -14,9 +14,9 @@ def profile(username):
   return "Hello " + username + "\n"
 
 @app.route('/post/<post>')
-def profile(post):
+def post(post):
   return "Post "+ post
-  
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
 
