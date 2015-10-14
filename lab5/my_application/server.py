@@ -10,7 +10,7 @@ def index():
   return "kjhgvjhfghjdghfjhfhjg"
 
 @app.route('/user/<username>')
-def profile(username): pass
+def profile(username):
   return "Hello <username>"
 
 if __name__ == "__main__":
